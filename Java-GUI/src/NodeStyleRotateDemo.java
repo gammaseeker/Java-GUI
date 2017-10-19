@@ -10,7 +10,7 @@ public class NodeStyleRotateDemo extends Application{
 	public void start(Stage primaryStage) {
 		StackPane pane = new StackPane();
 		Button btOK = new Button("OK");
-		btOK.setStyle("-fx-border-color: blue;");
+		btOK.setStyle("-fx-border-color: blue; -fx-color: red;");
 		pane.getChildren().add(btOK);
 		
 		pane.setRotate(45);
