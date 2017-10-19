@@ -8,7 +8,7 @@ public class ButtonInPane extends Application{
 	@Override // Override the start method in the Application class
 	public void start(Stage primaryStage){
 		StackPane pane = new StackPane();
-		pane.getChildren().add(new Button("OK"));
+		pane.getChildren().add(new Button("OK"));//This is an ArrayList
 		Scene scene = new Scene(pane, 200, 50);
 		primaryStage.setTitle("Button in a pane");
 		primaryStage.setScene(scene);
