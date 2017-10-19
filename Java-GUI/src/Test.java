@@ -13,6 +13,6 @@ public class Test extends Application{
 	
 	public static void main(String[] args) {
 		System.out.println("Launch application");
-		Application.launch(args);
+		Application.launch(args);//Test constructor -> start() Ask prof why this happens
 	}
 }
