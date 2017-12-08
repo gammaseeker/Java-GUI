@@ -12,7 +12,7 @@ public class ShowCircle extends Application{
 		Circle circle = new Circle();
 		circle.setCenterX(100);
 		circle.setCenterY(100);
-		circle.setRadius(50);
+		circle.setRadius(500);
 		circle.setStroke(Color.BLACK);
 		circle.setFill(Color.WHITE);
 		
